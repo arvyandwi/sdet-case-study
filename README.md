@@ -22,4 +22,6 @@ This repository contains a Software Development Engineer in Test (SDET) case stu
 ```bash
 git clone https://github.com/arvyandwi/sdet-case-study.git
 cd sdet-case-study
+```
+
 
