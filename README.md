@@ -24,4 +24,25 @@ git clone https://github.com/arvyandwi/sdet-case-study.git
 cd sdet-case-study
 ```
 
+## 🚀 How to Run
 
+Go to terminal:
+```bash
+npx playwright test
+```
+
+If you want to run a specific test case/scenario:
+Go to terminal:
+```bash
+npx playwright test tests/login.spec.js
+```
+You can find all test case on the `tests` folder.
+
+You can run in UI Mode using:
+```bash
+npx playwright test --ui
+```
+
+## 🧑‍💻 Headless or Not?
+
+Simply go to `playwright.config.ts` in the project folder and find the attribute `headless`. Change the values to your preference (`true` means run on headless and vice versa).
